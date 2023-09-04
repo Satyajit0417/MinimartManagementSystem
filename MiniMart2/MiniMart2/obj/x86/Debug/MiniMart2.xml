@@ -1,0 +1,332 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MiniMart2
+</name>
+</assembly>
+<members>
+<member name="T:MiniMart.DataSet1.CustTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MiniMart.DataSet1.CustTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MiniMart.DataSet1.CustTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MiniMart.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:MiniMart.DataSet1TableAdapters.CustTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:MiniMart.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(MiniMart.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:MiniMart.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(MiniMart.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:MiniMart.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(MiniMart.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:MiniMart.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:MiniMart.DataSet1TableAdapters.TableAdapterManager.UpdateAll(MiniMart.DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:MiniMart.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:MiniMart.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:MiniMart.DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSet.custDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSet.CustTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSet.employeeTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSet.LoginDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSet.custRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSet.CustTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSet.employeeTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSet.LoginRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSet.custRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSet.CustTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSet.employeeTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSet.LoginRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSetTableAdapters.custTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSetTableAdapters.CustTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSetTableAdapters.employeeTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSetTableAdapters.LoginTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:MiniMart.MiniMartDBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MiniMart.MiniMartDBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:MiniMart.MiniMartDBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MiniMart.MiniMartDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:MiniMart.MiniMartDBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MiniMart.MiniMartDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:MiniMart.MiniMartDBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:MiniMart.MiniMartDBDataSetTableAdapters.TableAdapterManager.UpdateAll(MiniMart.MiniMartDBDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:MiniMart.MiniMartDBDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.deposite">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.download">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.download__1_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.download__3_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.download__4_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.download1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.DSC">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.imaged">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.imagek">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__1_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__11_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__15_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__2_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__2_3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__21_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__23_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__24_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__28_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__29_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__3_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__30_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__4_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__4_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__5_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__6_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__8_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images__9_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images_2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images_3_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images_4_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images_5_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images_6_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.images2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:MiniMart.My.Resources.Resources.IMGS">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:MiniMart.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
